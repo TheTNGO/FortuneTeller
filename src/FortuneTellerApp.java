@@ -5,8 +5,9 @@ public class FortuneTellerApp {
 
 	public static void main(String[] args) {
 
-		Scanner input = new Scanner(System.in);
+		/* Initialization */
 
+		Scanner input = new Scanner(System.in);
 		System.out.println("I will see into your future!\n");
 
 		/* Gather Info */
@@ -49,8 +50,10 @@ public class FortuneTellerApp {
 
 		System.out.println("\nHow many siblings does this one have?:");
 		int siblings = input.nextInt();
-
 		input.nextLine();
+
+		// Input Cleanup
+
 		input.close();
 
 		/* Outcome Calculations */
@@ -134,8 +137,8 @@ public class FortuneTellerApp {
 		/* Fortune Reading */
 
 		System.out.println("\n" + firstName + " " + lastName + " will retire in " + outcomeRetirement + " years with "
-				+ outcomeBankBalanceAsString + " in the bank, \na vacation home " + outcomeVacation
-				+ ", and travel by " + outcomeTransportation + ".");
+				+ outcomeBankBalanceAsString + " in the bank, \na vacation home " + outcomeVacation + ", and travel by "
+				+ outcomeTransportation + ".");
 
 		System.out.println("\nFortuneTellerApp.java HAS SPOKEN!");
 
