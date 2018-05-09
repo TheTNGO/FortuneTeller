@@ -110,9 +110,9 @@ public class FortuneTellerApp {
 			outcomeTransportation = "Segway";
 			break;
 		case "violet":
-			outcomeTransportation = "motorized office chair";
+			outcomeTransportation = "private jet";
 		default:
-			outcomeTransportation = "imaginary pony";
+			outcomeTransportation = "motorized office chair";
 		}
 
 		// Bank Balance (Birth month)
