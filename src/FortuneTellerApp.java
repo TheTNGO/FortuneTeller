@@ -111,6 +111,7 @@ public class FortuneTellerApp {
 			break;
 		case "violet":
 			outcomeTransportation = "private jet";
+			break;
 		default:
 			outcomeTransportation = "motorized office chair";
 		}
